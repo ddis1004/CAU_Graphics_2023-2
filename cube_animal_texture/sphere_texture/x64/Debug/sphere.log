@@ -1,0 +1,45 @@
+﻿initShader.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+initShader.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl idle(void)" (?idle@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutIdleFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutGet referenced in function "void __cdecl idle(void)" (?idle@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitContextVersion referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitContextProfile referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBufferSubData referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetAttribLocation referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniform1i referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+texture.obj : error LNK2019: unresolved external symbol __imp___glewCompressedTexImage2D referenced in function "unsigned int __cdecl loadDDS(char const *)" (?loadDDS@@YAIPEBD@Z)
+texture.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmap referenced in function "unsigned int __cdecl loadBMP_custom(char const *)" (?loadBMP_custom@@YAIPEBD@Z)
+freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\moons\Downloads\sphere_texture\x64\Debug\sphere.exe : fatal error LNK1120: 41 unresolved externals
